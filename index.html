@@ -1,9 +1,49 @@
 <html>
   <head>
     <title>NAMES</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   </head>
   <body>
-    <h1>AKAN NAMES.</h1>
+    <div class ="container">
+      <div class ="row">
+        <div class ="col-md-6">
+    <h1><strong>AKAN NAMES.</strong></h1>
+    <p>Generate birthdays to all gender.</p>
+    <form>
+      <h1>First name:</h1>
+      <input type="text" name="firstname"><br>
+      <h1>Last name:</h1>
+      <input type="text" name="lastname">
+    </form>
+    <form>
+        <p>Age:</p>
+        <input type="AGE" name="AGE">
+      </form>
+      <form action ="/action-page.php">
+        <select name ="Gender">
+          <option value ="Others">Others</option>
+          <option value ="Female">Female</option>
+          <option value ="Male">Male</option>
+        </select>
+      </form>
+      
+        <form>
+            Enter a date before 1980-01-01:
+            <input type="date" name="bday" max="1979-12-31"><br>
+            Enter a date after 2000-01-01:
+            <input type="date" name="bday" min="2000-01-02"><br>
+      <input type="submit" value="Submit">
+      <input type="reset">
+    </form>
+    </div>
+    <div class="col-md-6">
+
+    </div>
+    
+    
     <script src="js/scripts.js"></script>
+  </div>
+  </div>
   </body>
 </html>

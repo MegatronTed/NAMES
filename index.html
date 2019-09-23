@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>NAMES</title>
@@ -9,28 +10,24 @@
         <div class ="col-md-6">
     <h1><strong>AKAN NAMES.</strong></h1>
     <p>Generate birthdays to all gender.</p>
-    <form>
-      <p>First name:</p>
-      <input type="text" name="firstname"><br>
-      <p>Last name:</p>
-      <input type="text" name="lastname">
-    </form>
+
       <form>
-        <select name ="Gender">
-          <option value ="Male">Male</option>  
-          <option value ="Female">Female</option>
-        </select>
-      </form>
-      <form>
-        <p>Date:</p> 
-        <input type="date" name="bday"><br>
-      <input type="submit" value="Submit">
-      <input type="reset">
+       
+        <label>Day</label><br><br>
+        <input type="text" name="Day" id="Day"value="Day"><br><br>
+        <label>Month</label><br>
+        <input type="text" name="Month" id="Month"value="Month"><br><br>
+        <label>Year</label><br>
+        <input type="text" name="Year" id="Year"value="Year"><br>
+      <label>Gender</label><br>
+      <input type="radio"name="gender" id="gender"value="Male">Male<br>
+      <input type="radio"name="gender"id="gender"value="Female">female<br>
+      <input type="submit" onclick="akanName()" id="submit" value="Submit">
+      <input type="reset"id="reset"value="reset">
+      
     </form>
     </div>
-    <div class="col-md-6">
-    </div>
-    <button type="button" onclick="alert('Hello!')">Click Me!</button>
+    <!-- <button type="button" onclick="alert('Hello!')">Click Me!</button> -->
     
     <script src="./js/scripts.js"></script>
   </div>

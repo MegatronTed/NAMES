@@ -1,14 +1,12 @@
 h1{
-    font-size:60px;
+    font-size:40px;
     color:orange;
     text-decoration:underline;
+    font-style:italic;
 }
 body{
     background-repeat:no-repeat;
     background-size:cover;
-    background-image:url("https://fsa.zobj.net/crop.php?r=OMMqa820e-Mwg-ZdVKALzQgM7vEd-MTtwYXSDRT-uYTaWsQYoXJZmeJpuD_2WZMDP_99YyAICgzHDw_8vA_OtIYpfQo1qFz9r4d3ZtzTH0pCCZNRco_d4RoeevdHHvzRyoLXfLdv18-fZ1NJ")
-}
-p{
-    font-size:40px;
-    color:rgb(25, 236, 25);
+    background-image:url("https://fsa.zobj.net/crop.php?r=OMMqa820e-Mwg-ZdVKALzQgM7vEd-MTtwYXSDRT-uYTaWsQYoXJZmeJpuD_2WZMDP_99YyAICgzHDw_8vA_OtIYpfQo1qFz9r4d3ZtzTH0pCCZNRco_d4RoeevdHHvzRyoLXfLdv18-fZ1NJ");
+    color:white;
 }

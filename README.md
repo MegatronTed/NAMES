@@ -29,9 +29,9 @@ This app is systematic from the Birth date to the gender input in that order.The
 ->Clone this repo to your desktop
 ->Run this in your terminal "git remove set-url" if you wish to have it into your repository
 ->Create a directory for this project
-->Run "atom ." in you terminal No need to install dependencies or run a server.This code depends on google fonts.
+->Run "atom." in you terminal No need to install dependencies or run a server.This code depends on google fonts.
 ### TECHNOLOGICAL USE.
-Used HTML to create forms and radio checkbox.Used also style.css to style my HTML content, JavaScript for functionality.
+Used HTML to create forms and radio checkbox.Used also style.css to style my HTML content,javaScript for functionality.
 # LICENSE.
 This project is licensed under the terms of the MIT license. Copyright (c) 2019 MegatronTed.
 

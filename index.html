@@ -11,19 +11,19 @@
     <h1><strong>AKAN NAMES.</strong></h1>
     <p>Generate birthdays to all gender.</p>
 
-      <form>
+      <form onsubmit="event.preventDefault()">
        
         <label>Day</label><br><br>
-        <input type="text" name="Day" id="Day"value="Day"><br><br>
+        <input type="text" value="" id="day"><br><br>
         <label>Month</label><br>
-        <input type="text" name="Month" id="Month"value="Month"><br><br>
+        <input type="text" value=""  id="month"><br><br>
         <label>Year</label><br>
-        <input type="text" name="Year" id="Year"value="Year"><br>
+        <input type="text" value="" id="year"><br>
       <label>Gender</label><br>
-      <input type="radio"name="gender" id="gender"value="Male">Male<br>
-      <input type="radio"name="gender"id="gender"value="Female">female<br>
-      <input type="submit" onclick="akanName()" id="submit" value="Submit">
-      <input type="reset"id="reset"value="reset">
+      <input type="radio"  id="gender"value="">Male<br>
+      <input type="radio"  id="gender"value="">female<br>
+      <input type="submit" onclick="akan()" id="submit" value="Submit">
+      
       
     </form>
     </div>

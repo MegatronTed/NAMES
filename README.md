@@ -33,5 +33,5 @@ This app is systematic from the Birth date to the gender input in that order.The
 ### TECHNOLOGICAL USE.
 Used HTML to create forms and radio checkbox.Used also style.css to style my HTML content, JavaScript for functionality.
 # LICENSE.
-This project is licensed under the terms of the MIT license. Copyright (c) 2019 MegatronTed
+This project is licensed under the terms of the MIT license. Copyright (c) 2019 MegatronTed.
 

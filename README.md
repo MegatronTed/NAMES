@@ -5,4 +5,4 @@ TEDDY NGUTU.
 ## PROJECT DESCRIPTION
 MY FIRST NAME GENERATING JAVASCRIPT WEBSITE.
 ## LINK TO LIVE SITE
-https://github.com/MegatronTed/NAMES.git
+https://megatronted.github.io/NAMES/

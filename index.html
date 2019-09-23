@@ -1,8 +1,7 @@
 <html>
   <head>
     <title>NAMES</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div class ="container">
@@ -11,36 +10,27 @@
     <h1><strong>AKAN NAMES.</strong></h1>
     <p>Generate birthdays to all gender.</p>
     <form>
-      <h1>First name:</h1>
+      <p>First name:</p>
       <input type="text" name="firstname"><br>
-      <h1>Last name:</h1>
+      <p>Last name:</p>
       <input type="text" name="lastname">
     </form>
-    <form>
-        <p>Age:</p>
-        <input type="AGE" name="AGE">
-      </form>
-      <form action ="/action-page.php">
+      <form>
         <select name ="Gender">
-          <option value ="Others">Others</option>
+          <option value ="Male">Male</option>  
           <option value ="Female">Female</option>
-          <option value ="Male">Male</option>
         </select>
       </form>
-      
-        <form>
-            Enter a date before 1980-01-01:
-            <input type="date" name="bday" max="1979-12-31"><br>
-            Enter a date after 2000-01-01:
-            <input type="date" name="bday" min="2000-01-02"><br>
+      <form>
+        <p>Date:</p> 
+        <input type="date" name="bday"><br>
       <input type="submit" value="Submit">
       <input type="reset">
     </form>
     </div>
     <div class="col-md-6">
-
     </div>
-    
+    <button type="button" onclick="alert('Hello!')">Click Me!</button>
     
     <script src="js/scripts.js"></script>
   </div>
